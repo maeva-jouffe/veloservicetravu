@@ -1,0 +1,19 @@
+#jumbotron{
+background-image: url(images/montagne.jpg);
+background-repeat:no-repeat;
+
+background-size: cover;
+background-position: center center;
+}
+.card-deck{
+    margin-top: 6rem;
+}
+.jumbotron_texte{
+    text-shadow:4px 2px 3px#fcaf3b;
+}
+a:hover{
+    text-decoration:none;
+}
+.card:hover{
+    transform: scale(1.05);
+}
