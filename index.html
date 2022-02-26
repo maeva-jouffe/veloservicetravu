@@ -5,41 +5,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/e2f4112cc0.js" crossorigin="anonymous"></script>
-    <title>Velo service travu - Entretien, réparation et vente de vélos et d'accessoires</title>
+    <title>Velo service travu - Entretien, réparation, vente et location de vélos et d'accessoires</title>
     <meta name="description"
-        content="Velo service travu est une entreprise d'entretien, réparation et vente de vélos et d'accessoires, pièces détachées et vêtements de cycles">
+        content="Velo service travu est spécialisé dans la location de cycles, l'entretien, la réparation, la vente de vélos, accessoires, pièces détachées et vêtements de cycles">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
 
     <!-- Style.CSS-->
     <link rel="stylesheet" href="styles.css">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://maeva-jouffe.github.io/P5_01_lienGithub/">
-    <meta property="og:title" content="Velo service travu - Entretien, réparation et vente de vélos et d'accessoires">
+    <meta property="og:url" content="www.velo-service-travu.fr">
+    <meta property="og:title" content="Velo service travu - Entretien, réparation, vente et location de vélos et d'accessoires">
     <meta property="og:description"
-        content="Velo service travu est une entreprise d'entretien, réparation et vente de vélos et d'accessoires, pièces détachées et vêtements de cycles">
-    <meta property="og:image" content="./images/orinoco.png">
+        content="Velo service travu est spécialisé dans la location de cycles, l'entretien, la réparation, la vente de vélos, accessoires, pièces détachées et vêtements de cycles">
+    <meta property="og:image" content="images/og.jpg">
 
-    <!-- Twitter -->
-    <meta property="twitter:card"
-        content="Velo service travu est une entreprise d'entretien, réparation et vente de vélos et d'accessoires, pièces détachées et vêtements de cycles">
-    <meta property="twitter:title"
-        content="Velo service travu - Entretien, réparation et vente de vélos et d'accessoires">
-    <meta property="twitter:image" content="./images/orinoco.png">
 </head>
 
 <body>
     <header>
-        <div class="bg-dark">
+        <div class="bg-warning">
             <div class="container">
                 <div class="row">
-                    <nav class="col navbar navbar-expand-lg  navbar-dark">
-                        <a class="navbar-brand" href="index.html"><img src="images/logo.svg" height="80"
+                    <nav class="col navbar navbar-expand-lg navbar-light bg-warning">
+                        <a class="navbar-brand" href="index.html"><img src="images/logo.svg" height="60"
                                 alt="Site logo"></a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarContent">
@@ -59,6 +52,9 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="location.html">Location</a>
                                 </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
                             </ul>
                         </div>
                     </nav>
@@ -67,24 +63,11 @@
         </div>
     </header>
     <!-- <Jumbotron> -->
-    <div class="jumbotron jumbotron-fluid" id="jumbotron">
-        <div class="container">
-            <div class="row">
-                <div class="col text-center">
-
-                    <h1 class="jumbotron_texte">Vous avez pour projet d'acheter un vélo ou de faire réparer le vôtre ?
-                        Venez nous en parler, nous
-                        sommes là pour vous accompagner.</h1>
-                    <!-- <img src="images/montagne.jpg" alt=""> -->
-                </div>
-            </div>
-        </div>
-    </div>
+<div><img src="images/banniere.png" id="banniere" alt=""></div>
     <!-- </Jumbotron> -->
 
     <div class="card-deck">
-
-        <div class="card shadow p-3 mb-5 bg-light rounded">
+        <div class="card shadow p-3 mb-5 bg-light rounded presentation">
             <a href="atelier.html" class="text-dark">
                 <img src="images/card_atelier.jpg" alt="atelier" class="card-img-top">
                 <div class="card-body">
@@ -97,17 +80,18 @@
             </a>
         </div>
 
-        <div class="card shadow p-3 mb-5 bg-light rounded">
+        <div class="card shadow p-3 mb-5 bg-light rounded presentation">
             <a href="vente.html" class="text-dark">
                 <img src="images/card_vente.jpg" alt="vente" class="card-img-top">
                 <div class="card-body">
                     <h4 class="card-title text-center">Vente</h4>
-                    <p class="card-text text-center">Un large choix de vélos, d’accessoires, de vêtements et de pièces détachées. Venez visiter notre boutique à Travo.</p>
+                    <p class="card-text text-center">Un large choix de vélos, d’accessoires, de vêtements et de pièces
+                        détachées. Venez visiter notre boutique à Travo.</p>
                 </div>
             </a>
         </div>
 
-        <div class="card shadow p-3 mb-5 bg-light rounded">
+        <div class="card shadow p-3 mb-5 bg-light rounded presentation">
             <a href="location.html" class="text-dark">
                 <img src="images/card_location.jpg" alt="location" class="card-img-top">
                 <div class="card-body">
@@ -119,91 +103,118 @@
     </div>
 
 
-<!-- Footer -->
-<footer class="text-center text-lg-start bg-dark text-light">
-    <!-- Section: Social media -->
-    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-        <!-- Left -->
-        <div class="me-5 d-none d-lg-block">
-            <span>Retrouvez nous sur les réseaux sociaux:</span>
+
+    <div class="card">
+        <div class="card-header text-center h3 bg-warning">
+            Quelques conseils
         </div>
-        <!-- Left -->
-
-        <!-- Right -->
-        <div>
-            <a href="" class="me-4 text-reset">
-                <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="" class="me-4 text-reset">
-                <i class="fab fa-google"></i>
-            </a>
-            <a href="" class="me-4 text-reset">
-                <i class="fab fa-instagram"></i>
-            </a>
+        <div class="card-body">
+            <h4 class="card-title text-center">Pourquoi un vélo doit être entretenu plus souvent qu’une voiture ?
+            </h4>
+            <p class="card-text text-center">Parce que les pièces d’un vélo sont bien plus légères, donc bien plus
+                fragiles. Il y a moins de quantité de matière, par exemple sur les patins de freins ; et donc on
+                arrive plus rapidement au bout de durée de vie de la pièce. Les patins de freins sont un exemple
+                très parlant, mais l’on peut citer également les roulements à billes insérés dans le moyeu des
+                roues, ceux insérés dans le boîtier de pédalier ou dans le jeu de direction. D’une manière générale, beaucoup de pièces sont fines, et donc se tordent au moindre choc : les tringles de garde-boue, les rayons, les jantes, les pattes où sont fixés le dérailleur ou l’éclairage… Toutes les petites pièces mécaniques sont exposées aux intempéries, et subissent les effets de la corrosion. Cette corrosion vient plus rapidement à bout d’un garde-boue de vélo en acier que d’une carrosserie de voiture. Les composants du vélo sont assemblés avec des vis, qui se dévissent facilement sous l'action des vibrations.</p>
+    
+   <h4 class="card-title text-center">Quand faire la révision de son vélo?</h4>
+            <p class="card-text text-center">Cela va dépendre de votre utilisation :Si vous roulez avec tous les
+                jours ou que vous parcourez plus de 3000 km par an, il faudra le faire réviser au moins deux fois
+                par an.Si vous roulez moins de 3000 km par an, une seule fois par an suffira. Bien sûr, si vous
+                entendez le moindre bruit suspect ou si vous avez l'impression que quelque chose d'anormal se passe
+                lorsque vous roulez (freinage moins puissant, vitesses qui passent mal etc.) n'attendez pas que la
+                situation s'empire et emmenez votre vélo le plus rapidement possible chez un spécialiste.</p>
         </div>
-        <!-- Right -->
-    </section>
-    <!-- Section: Social media -->
+    </div>
 
-    <!-- Section: Links  -->
-    <section class="">
-        <div class="container text-center text-md-start mt-5">
-            <!-- Grid row -->
-            <div class="row mt-3">
-                <!-- Grid column -->
-                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                    <!-- Content -->
-                    <p>
-                    <img src="images/logo.svg" height="100" alt="Site logo">
-                    </p>
-                </div>
-                <!-- Grid column -->
 
-  
-
-                <!-- Grid column -->
-                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                    <!-- Links -->
-                    <h6 class="text-uppercase fw-bold mb-4">
-                        Liens utiles
-                    </h6>
-                    <p>
-                        <a href="https://www.corseorientale.com/" class="text-reset">Office du tourisme</a>
-                    </p>
-                    <p>
-                        <a href="https://www.komoot.fr/guide/787/itineraires-a-velo-de-course-en-corse" class="text-reset">Komoot</a>
-                    </p>
-                    <p>
-                        <a href="#!" class="text-reset">Orders</a>
-                    </p>
-                    <p>
-                        <a href="#!" class="text-reset">Help</a>
-                    </p>
-                </div>
-                <!-- Grid column -->
-
-                <!-- Grid column -->
-                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                    <!-- Links -->
-                    <h6 class="text-uppercase fw-bold mb-4">
-                        Contact
-                    </h6>
-                    <p><i class="fas fa-home me-3"></i> <a href="https://www.google.com/maps/place/V%C3%A9lo+service/@41.9164989,9.3131005,12z/data=!4m9!1m2!2m1!1sv%C3%A9lo+service!3m5!1s0x12d9ed5bb2ffb827:0xbc3463fb9415f43d!8m2!3d41.9163827!4d9.3832335!15sCg12w6lsbyBzZXJ2aWNlWg8iDXbDqWxvIHNlcnZpY2WSARNiaWN5Y2xlX3JlcGFpcl9zaG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJoTXpsSWRGWkJFQUU" class="text-light bg-dark"> Espace Covasina 20240 Ventiseri</a></p>
-                    <p>
-                        <i class="fas fa-envelope me-3"></i>
-                       <a href="mailto:contact@velo-service-travu.fr" class="text-light bg-dark"> contact@velo-service-travu.fr</a>
-                    </p>
-                    <p><i class="fas fa-phone me-3"></i> <a href="tel:+33781797533" class="text-light bg-dark">07 81 79 75 33</a></p>
-                </div>
-                <!-- Grid column -->
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-dark text-light">
+        <!-- Section: Social media -->
+        <section class="justify-content-center justify-content-lg-between p-4 border-bottom">
+            <!-- Left -->
+            <div>
+                <span><img src="images/logo_footer.svg" class="logoFooter" alt="Site logo"></span>
+            </div><br>
+            <!-- Left -->
+            <!-- Right -->
+        </section>
+        <section class="justify-content-center justify-content-lg-between p-4 border-bottom">
+            <div>
+                <a href="https://www.facebook.com/veloservicetravu" class="me-4 text-reset">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://g.page/r/CT30FZT7YzS8EBA" class="me-4 text-reset iconeReseaux">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a href="" class="me-4 text-reset iconeReseaux">
+                    <i class="fab fa-instagram"></i>
+                </a>
             </div>
-            <!-- Grid row -->
-        </div>
-    </section>
-    <!-- Section: Links  -->
-
-</footer>
-<!-- Footer -->
+        </section>
+        <!-- Right -->
+    
+        <!-- Section: Social media -->
+    
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+    
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Mentions légales
+                        </h6>
+                        <p>
+                            <a href="cgu.html" class="text-reset">Conditions générales d'utilisation</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Liens utiles
+                        </h6>
+                        <p>
+                            <a href="https://www.corseorientale.com/" class="text-reset">Office du tourisme</a>
+                        </p>
+                        <p>
+                            <a href="https://www.komoot.fr/guide/787/itineraires-a-velo-de-course-en-corse"
+                                class="text-reset">Komoot</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+    
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Contact
+                        </h6>
+                        <p><i class="fas fa-home me-3"></i> <a
+                                href="https://www.google.com/maps/place/V%C3%A9lo+service/@41.9164989,9.3131005,12z/data=!4m9!1m2!2m1!1sv%C3%A9lo+service!3m5!1s0x12d9ed5bb2ffb827:0xbc3463fb9415f43d!8m2!3d41.9163827!4d9.3832335!15sCg12w6lsbyBzZXJ2aWNlWg8iDXbDqWxvIHNlcnZpY2WSARNiaWN5Y2xlX3JlcGFpcl9zaG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJoTXpsSWRGWkJFQUU"
+                                class="text-reset"> Espace Covasina 20240 Ventiseri</a></p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            <a href="mailto:contact@velo-service-travu.fr" class="text-reset">
+                                contact@velo-service-travu.fr</a>
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i> <a href="tel:+33781797533" class="text-reset">06 52 00
+                                68 44</a></p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+    </footer>
+    <!-- Footer -->
 
     <!-- Bootstrap JavaScript-->
 

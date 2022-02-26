@@ -1,19 +1,99 @@
-#jumbotron{
-background-image: url(images/montagne.jpg);
-background-repeat:no-repeat;
-
-background-size: cover;
-background-position: center center;
+#banniere{
+    width:100%;
+    margin-top: 3rem;
 }
 .card-deck{
     margin-top: 6rem;
 }
-.jumbotron_texte{
-    text-shadow:4px 2px 3px#fcaf3b;
-}
 a:hover{
     text-decoration:none;
 }
-.card:hover{
+.presentation:hover{
     transform: scale(1.05);
+}
+.card_location{
+    max-width:80%;
+    margin:auto;
+}
+table{
+    max-width:70%;
+    margin:auto;
+}
+.photo_velo{
+    margin:auto;
+}
+.carousel-inner img{
+    border:1px solid black;
+    margin-top: 3rem;
+}
+#carouselExampleFade{
+    max-width:70%;
+    margin:auto;
+}
+hr.securite {
+    border-top: 1px solid #28A745;
+    width:30%;
+}
+hr.standard {
+    border-top: 1px solid #FFC107;
+    width:30%;
+}
+hr.approfondi {
+    border-top: 1px solid #007BFF;
+    width:30%;
+}
+.fa-solid{
+    background-color:#FFC107;
+}
+.card-footer{
+    font-size: x-large;
+    width: 45%;
+    margin:auto;
+    margin-bottom: 1rem;
+}
+.cardRevision{
+    margin: auto;
+    width:80%;
+    margin-bottom:3rem;
+}
+.atelierDetail{
+    margin-bottom: 1rem;
+}
+.titreAtelier{
+    font-size: x-large;
+}
+#photo_velo_location{
+    width: 25rem;
+}
+.veloLocation{
+    width: 40%;
+    margin:auto;
+}
+.iconeReseaux{
+    margin-left:4rem;
+}
+footer{
+    margin-top:3rem;
+}
+.reparation{
+    margin:auto;
+}
+.map{
+    margin:auto;
+}
+.map-container-5{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container-5 iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+.logoFooter{
+    width:13rem;
 }
