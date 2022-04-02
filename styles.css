@@ -2,8 +2,15 @@
     width:100%;
     margin-top: 3rem;
 }
+#conseils{
+    margin-top:2rem;
+    margin-bottom:2rem;
+}
 .card-deck{
     margin-top: 6rem;
+}
+.forfaits{
+    border:1px solid black;
 }
 a:hover{
     text-decoration:none;
@@ -55,6 +62,7 @@ hr.approfondi {
     margin: auto;
     width:80%;
     margin-bottom:3rem;
+    margin-top:2rem;
 }
 .atelierDetail{
     margin-bottom: 1rem;
