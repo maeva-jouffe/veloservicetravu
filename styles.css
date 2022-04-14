@@ -1,13 +1,37 @@
 #banniere{
     width:100%;
-    margin-top: 3rem;
+    margin-top:20px;
+}
+#banniere1{
+    width:100%;
+    position:absolute;
+    top:0;
+}
+.romana{
+    width:100%;
+}
+.banniereSM{
+position:relative;
+height:13rem;
+}
+.indexh1{
+    z-index:1000;
+    position:absolute;
+    color:white;
+    top:2rem;
+    padding:0.5rem;
+}
+.indexh1 em{
+    color:#FFC107;
+    font-weight:bold;
+    font-style: normal;
 }
 #conseils{
     margin-top:2rem;
     margin-bottom:2rem;
 }
 .card-deck{
-    margin-top: 6rem;
+    margin-top: 3.5rem;
 }
 .forfaits{
     border:1px solid black;
@@ -18,19 +42,22 @@ a:hover{
 .presentation:hover{
     transform: scale(1.05);
 }
+.locationCard{
+    margin-bottom:2rem;
+}
 .card_location{
     max-width:80%;
     margin:auto;
 }
 table{
-    max-width:70%;
+    max-width:80%;
     margin:auto;
 }
 .photo_velo{
     margin:auto;
 }
 .carousel-inner img{
-    border:1px solid black;
+    border:6px double #F2F2F2;
     margin-top: 3rem;
 }
 #carouselExampleFade{
@@ -57,6 +84,10 @@ hr.approfondi {
     width: 45%;
     margin:auto;
     margin-bottom: 1rem;
+}
+.loc img{
+    width:15rem;
+    text-align:center;
 }
 .cardRevision{
     margin: auto;
