@@ -1,3 +1,4 @@
+/* Page Index */
 #banniere{
     width:100%;
     margin-top:20px;
@@ -28,17 +29,16 @@ height:13rem;
     margin-bottom:2rem;
 }
 .card-deck{
-    margin-top: 3.5rem;
+    margin-top: 3.5em;
 }
-.forfaits{
-    border:1px solid black;
+a:hover {
+    text-decoration: none;
 }
-a:hover{
-    text-decoration:none;
-}
-.presentation:hover{
+.presentation:hover {
     transform: scale(1.05);
 }
+
+/* Page Location */
 .locationCard{
     margin-bottom:2rem;
 }
@@ -50,9 +50,6 @@ table{
     max-width:80%;
     margin:auto;
 }
-.photo_velo{
-    margin:auto;
-}
 .carousel-inner img{
     border:6px double #F2F2F2;
     margin-top: 3rem;
@@ -61,6 +58,8 @@ table{
     max-width:70%;
     margin:auto;
 }
+
+/* Page Atelier */
 hr.securite {
     border-top: 1px solid #28A745;
     width:30%;
@@ -73,18 +72,11 @@ hr.approfondi {
     border-top: 1px solid #007BFF;
     width:30%;
 }
-.fa-solid{
-    background-color:#FFC107;
-}
 .card-footer{
     font-size: x-large;
     width: 45%;
     margin:auto;
     margin-bottom: 1rem;
-}
-.loc img{
-    width:15rem;
-    text-align:center;
 }
 .cardRevision{
     margin: auto;
@@ -98,38 +90,36 @@ hr.approfondi {
 .titreAtelier{
     font-size: x-large;
 }
-#photo_velo_location{
-    width: 25rem;
+.reparation {
+    margin: auto;
 }
-.veloLocation{
-    width: 40%;
-    margin:auto;
+
+/* Page Contact */
+.map {
+    margin: auto;
 }
+.map-container-5 {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+.map-container-5 iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+/* Footer */
 .iconeReseaux{
     margin-left:4rem;
 }
 footer{
     margin-top:3rem;
 }
-.reparation{
-    margin:auto;
+.logoFooter {
+    width: 13rem;
 }
-.map{
-    margin:auto;
-}
-.map-container-5{
-overflow:hidden;
-padding-bottom:56.25%;
-position:relative;
-height:0;
-}
-.map-container-5 iframe{
-left:0;
-top:0;
-height:100%;
-width:100%;
-position:absolute;
-}
-.logoFooter{
-    width:13rem;
-}
+

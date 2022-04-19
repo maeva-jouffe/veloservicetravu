@@ -7,7 +7,7 @@
     <script src="https://kit.fontawesome.com/e2f4112cc0.js" crossorigin="anonymous"></script>
     <title>Velo service travu - Entretien, réparation, vente et location de vélos et d'accessoires</title>
     <meta name="description"
-        content="Velo service travu est spécialisé dans la location de cycles, l'entretien, la réparation, la vente de vélos, accessoires, pièces détachées et vêtements de cycles">
+        content="Velo service travu est spécialisé dans la location de cycles, l'entretien, la réparation, la vente de vélos, accessoires, pièces détachées et vêtements de cycle">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -109,68 +109,103 @@
         </div>
     </div>
 
-     
 
-    <div class="container-fluid">
-<div class="h2 text-center bg-dark text-white" id="conseils">
-    <p>Quelques conseils</p>
+    <div class="container">
+<div class="h2 text-center bg-warning" id="conseils">
+    <p>QUELQUES CONSEILS</p>
 </div>
-        <div class="card-columns">
-            <div class="card text-white bg-secondary  mb-3">
+    <div class="accordion" id="accordionExample">
+    
+        <div class="card bg-dark text-white">
+            <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                    <button class="btn collapsed text-white" type="button" data-toggle="collapse"
+                        data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        Pourquoi un vélo doit être entretenu plus souvent qu’une voiture ?
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                 <div class="card-body">
-                    <h5 class="card-title text-center">Pourquoi un vélo doit être entretenu plus souvent qu’une voiture ?</h5>
-                    <p class="card-text">Parce que les pièces d’un vélo sont bien plus légères, donc bien plus
-                        fragiles. Il y a moins de quantité de matière, par exemple sur les patins de freins ; et donc on
-                        arrive plus rapidement au bout de durée de vie de la pièce. Les patins de freins sont un exemple
-                        très parlant, mais l’on peut citer également les roulements à billes insérés dans le moyeu des
-                        roues, ceux insérés dans le boîtier de pédalier ou dans le jeu de direction. D’une manière
-                        générale, beaucoup de pièces
-                        sont fines, et donc se tordent au moindre choc : les tringles de garde-boue, les rayons, les
-                        jantes, les pattes où sont
-                        fixés le dérailleur ou l’éclairage… Toutes les petites pièces mécaniques sont exposées aux
-                        intempéries, et subissent les
-                        effets de la corrosion. Cette corrosion vient plus rapidement à bout d’un garde-boue de vélo en
-                        acier que d’une
-                        carrosserie de voiture. Les composants du vélo sont assemblés avec des vis, qui se dévissent
-                        facilement sous l'action
-                        des vibrations.</p>
+                    Parce que les pièces d’un vélo sont bien plus légères, donc bien plus fragiles. Il y a moins de quantité
+                    de matière, par
+                    exemple sur les patins de freins ; et donc on arrive plus rapidement au bout de la durée de vie de la
+                    pièce. Les patins de
+                    freins sont un exemple très parlant, mais l’on peut citer également les roulements à bille insérés dans
+                    le moyeu des
+                    roues, ceux insérés dans le boîtier de pédalier ou dans le jeu de direction. D’une manière générale,
+                    beaucoup de pièces
+                    sont fines, et donc se tordent au moindre choc : les tringles de garde-boue, les rayons, les jantes, les
+                    pattes où sont
+                    fixés le dérailleur ou l’éclairage… Toutes les petites pièces mécaniques sont exposées aux intempéries,
+                    et subissent les
+                    effets de la corrosion. Cette corrosion vient plus rapidement à bout d’un garde-boue de vélo en acier
+                    que d’une
+                    carrosserie de voiture. Les composants du vélo sont assemblés avec des vis, qui se dévissent facilement
+                    sous l'action
+                    des vibrations.
                 </div>
             </div>
-            <div class="card text-dark bg-warning  mb-3">
+        </div>
+        <div class="card bg-light">
+            <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                    <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                        aria-expanded="false" aria-controls="collapseTwo">
+                        Quand faire la révision de son vélo?
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                 <div class="card-body">
-                    <h5 class="card-title text-center">Quand faire la révision de son vélo?</h5>
-                    <p class="card-text">Cela va dépendre de votre utilisation :Si vous roulez avec tous les
-                        jours ou que vous parcourez plus de 3000 km par an, il faudra le faire réviser au moins deux
-                        fois
-                        par an.Si vous roulez moins de 3000 km par an, une seule fois par an suffira. Bien sûr, si vous
-                        entendez le moindre bruit suspect ou si vous avez l'impression que quelque chose d'anormal se
-                        passe
-                        lorsque vous roulez (freinage moins puissant, vitesses qui passent mal etc.) n'attendez pas que
-                        la
-                        situation s'empire et emmenez votre vélo le plus rapidement possible chez un spécialiste.</p>
+                    Cela va dépendre de votre utilisation:<br>Si vous roulez avec tous les jours ou que vous parcourez plus
+                    de 3000 km par an, il faudra le faire réviser au moins deux fois
+                    par an.<br>Si vous roulez moins de 3000 km par an, une seule fois par an suffira. Bien sûr, si vous
+                    entendez le moindre bruit suspect ou si vous avez l'impression que quelque chose d'anormal se
+                    passe lorsque vous roulez (freinage moins puissant, vitesses qui passent mal etc.) n'attendez pas que la
+                    situation s'empire et emmenez votre vélo le plus rapidement possible chez un spécialiste.
                 </div>
             </div>
-            <div class="card bg-light mb-3">
+        </div>
+        <div class="card bg-warning">
+            <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                    <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
+                        aria-expanded="false" aria-controls="collapseThree">
+                        Quelles normes votre casque doit-il respecter?
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                 <div class="card-body">
-                    <h5 class="card-title text-center">Quelles normes votre casque doit-il respecter?</h5>
-                    <p class="card-text">La première chose à vérifier lors de l'achat d'un casque neuf, en dehors de ses
-                        qualités esthétiques bien sûr, c'est la présence de l'indication "CE EN 1078". Celle-ci garantit
-                        que le casque répond aux exigences et aux méthodes d'essai européennes, notamment en matière de
-                        construction, de champ de vision, d'absorption des chocs, etc. Pour une meilleure protection,
-                        cette indication peut être complétée par d'autres certifications dont la "NTA 8776" qui indique
-                        que le casque est adapté à la pratique du VAE. Ou bien encore la technologie MIPS plébiscitée
-                        par de nombreux acteurs du marché et utilisée afin de fournir un haut niveau de protection
-                        supplémentaire contre les traumatismes crâniens. Lors d'un choc, le système MIPS absorbera
-                        l'énergie de l'impact en faisant glisser le crâne le long de la mousse intérieure, évitant au
-                        cerveau de taper contre la boîte crânienne.</p>
+                    La première chose à vérifier lors de l'achat d'un casque neuf, en dehors de ses
+                    qualités esthétiques bien sûr, c'est la présence de l'indication "CE EN 1078". Celle-ci garantit
+                    que le casque répond aux exigences et aux méthodes d'essai européennes, notamment en matière de
+                    construction, de champ de vision, d'absorption des chocs, etc. Pour une meilleure protection,
+                    cette indication peut être complétée par d'autres certifications dont la "NTA 8776" qui indique
+                    que le casque est adapté à la pratique du VAE. Ou bien encore la technologie MIPS plébiscitée
+                    par de nombreux acteurs du marché et utilisée afin de fournir un haut niveau de protection
+                    supplémentaire contre les traumatismes crâniens. Lors d'un choc, le système MIPS absorbera
+                    l'énergie de l'impact en faisant glisser le crâne le long de la mousse intérieure, évitant au
+                    cerveau de taper contre la boîte crânienne.
                 </div>
             </div>
-            <div class="card text-white bg-dark mb-3">
+        </div>
+        <div class="card bg-light">
+            <div class="card-header" id="headingFour">
+                <h5 class="mb-0">
+                    <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseFour"
+                        aria-expanded="false" aria-controls="collapseFour">
+                        Les équipements obligatoires pour le vélo
+                    </button>
+                </h5>
+            </div>
+    
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
                 <div class="card-body">
-                    <h5 class="card-title text-center">Les équipements obligatoires pour le vélo</h5>
-                    <p class="card-text">Le code de la route impose que chaque vélo circulant sur la voie publique soit
-                        équipé au minimun d'un des éléments suivants:<br>
-                        <h6>Les signalisations</h6>
+                    Le code de la route impose que chaque vélo circulant sur la voie publique soit
+                    équipé au minimun d'un des éléments suivants:<br /><br />
+                    <h6>Les signalisations</h6>
                     <ul>
                         <li>Un catadioptre (élément réfléchissant) blanc visible à l'avant</li>
                         <li>Un ou plusieurs catadioptres arrières (ainsi que sur la remorque si nécessaire)</li>
@@ -180,7 +215,7 @@
                     <h6>Les éclairages</h6>
                     <ul>
                         <li>Feu de position émettant vers l'avant une lumière jaune ou blanche non éblouissante</li>
-                        <li>Feu de position arrière qui doit être netement visible(ainsi que sur la remorque si
+                        <li>Feu de position arrière qui doit être nettement visible (ainsi que sur la remorque si
                             nécessaire)</li>
                     </ul>
                     <h6>L'avertisseur sonore</h6>
@@ -190,38 +225,73 @@
                     </ul>
                     <h6>Les systèmes de freinage</h6>
                     <ul>
-                        <li>Tout vélo doit enfin être équipé de deux systèmes de freinage efficaces et indépendants agissant chacun sur une roue différente.</li>
+                        <li>Tout vélo doit enfin être équipé de deux systèmes de freinage efficaces et indépendants agissant
+                            chacun sur une
+                            roue différente.</li>
                     </ul>
-                    </p>
                 </div>
             </div>
-            <div class="card bg-warning mb-3">
+        </div>
+        <div class="card bg-dark text-white">
+            <div class="card-header" id="headingFive">
+                <h5 class="mb-0">
+                    <button class="btn collapsed text-white" type="button" data-toggle="collapse"
+                        data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        Le forfait mobilité durable c'est quoi?
+                    </button>
+                </h5>
+            </div>
+    
+            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
                 <div class="card-body">
-                    <h5 class="card-title text-center">Le forfait mobilité durable c'est quoi?</h5>
-                    <p class="card-text">Dans la lignée de la loi mobilités, pour des transports quotidiens plus faciles, moins coûteux et plus propres, le
-                    décret du 9 mai 2020 met en place le « forfait mobilités durables », pour accompagner les salariés et les employeurs du
-                    privé.<br/>Pour les employés, il s'agit de la prise en charge facultative par leur employeur des frais de transports personnels
-                    entre le domicile et le lieu de travail jusqu'à 500 € par an. Les moyens de transports concernés sont :<ul><li>les vélos, électriques ou mécaniques</li>
-                    <li>la voiture dans le cadre d'un covoiturage (en tant que conducteur ou passager)</li>
-                    <li>les engins de déplacement personnels (motorisés ou non) en location ou en libre-service (comme les scooters et
-                    trottinettes électriques « en free-floating »)</li>
-                    <li>les transports en commun en dehors des frais d'abonnement</li>
-                    </ul>Il est exonéré d'impôt sur le revenu et de cotisations sociales jusqu'à 500 € par an et par salarié.
-                    
-                    Le forfait est cumulable avec la participation de l'employeur à l'abonnement de transport public mais l'avantage fiscal
-                    résultant des deux aides ne peut dépasser le montant maximum entre 500 € par an et le montant du remboursement de
-                    l'abonnement de transport public.</p>
+                    Dans la lignée de la loi mobilités, pour des transports quotidiens plus faciles, moins coûteux et plus
+                    propres, le
+                    décret du 9 mai 2020 met en place le « forfait mobilités durables », pour accompagner les salariés et
+                    les employeurs du
+                    privé.<br />Pour les employés, il s'agit de la prise en charge facultative par leur employeur des frais
+                    de transports
+                    personnels
+                    entre le domicile et le lieu de travail jusqu'à 500 € par an. Les moyens de transports concernés sont :
+                    <ul>
+                        <li>les vélos, électriques ou mécaniques</li>
+                        <li>la voiture dans le cadre d'un covoiturage (en tant que conducteur ou passager)</li>
+                        <li>les engins de déplacement personnels (motorisés ou non) en location ou en libre-service (comme
+                            les scooters et
+                            trottinettes électriques « en free-floating »)</li>
+                        <li>les transports en commun en dehors des frais d'abonnement</li>
+                    </ul>Il est exonéré d'impôt sur le revenu et de cotisations sociales jusqu'à 500 € par an et par
+                    salarié.
+    
+                    Le forfait est cumulable avec la participation de l'employeur à l'abonnement de transport public mais
+                    l'avantage fiscal
+                    résultant des deux aides ne peut dépasser le montant maximum entre 500 € par an et le montant du
+                    remboursement de
+                    l'abonnement de transport public.
                 </div>
             </div>
-            <div class="card bg-light mb-3">
+        </div>
+        <div class="card bg-light">
+            <div class="card-header" id="headingSix">
+                <h5 class="mb-0">
+                    <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseSix"
+                        aria-expanded="false" aria-controls="collapseSix">
+                        Comment choisir sa sonnette?
+                    </button>
+                </h5>
+            </div>
+    
+            <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
                 <div class="card-body">
-                    <h5 class="card-title text-center">Comment choisir sa sonnette?</h5>
-                    <p class="card-text">Le premier point à vérifier, c'est la compatibilité avec le cintre de votre vélo: elle est généralement précisée par un diamètre en millimètres, ou une fourchette de diamètre de cintre compatible. Vérifiez ensuite le système de fixation pour qu'il soit simple et robuste.</p>
+                    Le premier point à vérifier, c'est la compatibilité avec le cintre de votre vélo: elle est généralement
+                    précisée par un
+                    diamètre en millimètres, ou une fourchette de diamètre de cintre compatible. Vérifiez ensuite le système
+                    de fixation
+                    pour qu'il soit simple et robuste.
                 </div>
             </div>
         </div>
     </div>
-
+    </div>
 
     <!-- Footer -->
     <footer class="text-center text-lg-start bg-dark text-light">
