@@ -94,6 +94,18 @@ hr.approfondi {
     margin: auto;
 }
 
+/*Page Vente*/
+.marques{
+display:flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.marques img{
+max-width:8rem;
+max-height: 3rem;
+margin:2rem 0.5rem 0rem 0.5rem;
+
+}
 /* Page Contact */
 .map {
     margin: auto;
@@ -122,4 +134,3 @@ footer{
 .logoFooter {
     width: 13rem;
 }
-
