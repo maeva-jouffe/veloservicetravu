@@ -30,41 +30,47 @@
 </head>
 
 <body>
-    <header>
-        <div class="bg-warning">
-            <div class="container">
-                <div class="row">
-                    <nav class="col navbar navbar-expand-lg navbar-light bg-warning">
-                        <a class="navbar-brand col-9 col-md-6 col-lg-4" href="index.html"><img src="images/logo.svg" 
-                                alt="Site logo"></a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                            data-target="#navbarContent">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div id="navbarContent" class="collapse navbar-collapse justify-content-end">
-                            <ul class="navbar-nav nav-tabs">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="index.html">Accueil</a>
-                                </li>
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="atelier.html">Atelier</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="vente.html">Vente</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="location.html">Location</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
+        <header>
+            <div class="bg-warning">
+                <div class="container">
+                    <div class="row">
+                        <nav class="col navbar navbar-expand-lg navbar-light bg-warning">
+                            <a class="navbar-brand col-9 col-md-6 col-lg-4" href="index.html"><img src="images/logo.svg"
+                                    alt="Site logo"></a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div id="navbarContent" class="collapse navbar-collapse justify-content-end">
+                                <ul class="navbar-nav nav-tabs">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="index.html">Accueil</a>
+                                    </li>
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="atelier.html">Atelier</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Vente
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item" href="velos.html">Vélos</a>
+                                            <a class="dropdown-item" href="accessoires.html">Accessoires</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="location.html">Location</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="contact.html">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
                 </div>
             </div>
-        </div>
-    </header>
+        </header>
 
     <!-- <Jumbotron> -->
     <div class="jumbotron">
@@ -103,8 +109,8 @@
             <td>À partir de 15€</td>
         </tr>
         <tr>
-            <td>Changement patins ou plaquettes + reglage</td>
-            <td>À partir de 10€</td>
+            <td>Changement patins ou plaquettes + réglage</td>
+            <td>À partir de 15€</td>
         </tr>
         <tr>
             <td>Changement cables et gaines</td>
@@ -167,7 +173,7 @@
             <td>À partir de 20€</td>
         </tr>
             <tr>
-                <td>Changement d'un boîtier de pedalier externe</td>
+                <td>Changement d'un boîtier de pédalier externe</td>
                 <td>À partir de 30€</td>
             </tr>
     </table><br />
@@ -267,85 +273,6 @@
     </table>
         <p class="text-center lead">Ces tarifs sont sous réserve de surprise au démontage, de pièces cassées ou grippées.
             </p><br/>
-
-  
-    <h2 class="lead text-center font-weight-bold">Nous vous proposons trois forfaits entretien pour vous remettre en selle en toute sécurité. Faites le bon choix!</h2>
-    <div class="card-deck cardRevision">
-        <div class="card shadow bg-light rounded">
-            <div class="card-header  bg-success text-white">
-                <h4 class="card-title text-center">Contrôle de sécurité</h4>
-            </div>
-            <div class="card-body">
-                <p class="card-text text-center">Vérification des serrages et des jeux</p>
-                <hr class="securite">
-                <p class="card-text text-center">Contrôle et réglage du système de freinage</p>
-                <hr class="securite">
-                <p class="card-text text-center">Contrôle, réglage et lubrification de la transmission</p>
-                <hr class="securite">
-                <p class="card-text text-center">Pression des pneumatiques</p>
-                <hr class="securite">
-            </div>
-            <div class="card-footer bg-success text-white text-center rounded">30€</div>
-            <small class="text-muted text-center atelierDetail">
-                Formule d'entretien régulier - 1 à 2 fois par an
-            </small>
-        </div>
-
-        <div class="card shadow bg-light rounded">
-            <div class="card-header bg-warning text-dark">
-                <h4 class="card-title text-center">Contrôle standard</h4>
-            </div>
-            <div class="card-body">
-                <h5 class="card-title text-center text-warning">Les points du forfait sécurité</h5>
-                <p class="card-text text-center"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22"
-                        fill="currentColor" class="bi bi-plus-circle-fill text-warning" viewBox="0 0 16 16">
-                        <path
-                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
-                    </svg></p>
-                <p class="card-text text-center">Changement des plaquettes ou patins de frein</p>
-                <hr class="standard">
-                <p class="card-text text-center">Changement des cables et gaines selon le besoin</p>
-                <hr class="standard">
-                <p class="card-text text-center">Nettoyage de la chaine et de la cassette</p>
-                <hr class="standard">
-                <p class="card-text text-center">Réglage des dérailleurs</p>
-                <hr class="standard">
-                <p class="card-text text-center">Lubrification de la transmission</p>
-                <hr class="standard">
-            </div>
-            <div class="card-footer bg-warning text-dark text-center rounded">70€</div>
-            <small class="text-muted text-center atelierDetail">
-                Formule d'entretien régulier - 1 à 2 fois par an
-            </small>
-        </div>
-
-        <div class="card shadow bg-light rounded">
-            <div class="card-header bg-primary text-white">
-                <h4 class="card-title text-center">Contrôle approfondi</h4>
-            </div>
-            <div class="card-body">
-                <h5 class="card-title text-center text-primary">Les points du forfait standard</h5>
-                <p class="card-text text-center"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22"
-                        fill="currentColor" class="bi bi-plus-circle-fill text-primary" viewBox="0 0 16 16">
-                        <path
-                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
-                    </svg>
-                <p class="card-text text-center">Contrôle des moyeux</p>
-                <hr class="approfondi">
-                <p class="card-text text-center">Contrôle du jeu de direction</p>
-                <hr class="approfondi">
-                <p class="card-text text-center">Contrôle du boitier de pédalier et graissage si nécessaire</p>
-                <hr class="approfondi">
-            </div>
-            <div class="card-footer bg-primary text-white text-center rounded">110€</div>
-            <small class="text-muted text-center atelierDetail">
-                Formule d'entretien expert - 1 fois par an ou tous les 2 ans
-            </small>
-        </div>
-    </div>
-
-        <p class="text-center">Tarifs TTC hors coût éventuel de fournitures ou pièces.</p>
-
 
 <!-- Footer -->
 <footer class="text-center text-lg-start bg-dark text-light">

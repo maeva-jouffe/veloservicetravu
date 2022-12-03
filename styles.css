@@ -59,6 +59,20 @@ table{
     margin:auto;
 }
 
+/*Page velos */
+
+#carouselVelosMassi{
+    max-width:70%;
+    margin: auto;
+}
+
+.logoVeloSM {
+    width: 80%;
+}
+
+.vide{
+    border:none;
+}
 /* Page Atelier */
 hr.securite {
     border-top: 1px solid #28A745;
@@ -77,12 +91,6 @@ hr.approfondi {
     width: 45%;
     margin:auto;
     margin-bottom: 1rem;
-}
-.cardRevision{
-    margin: auto;
-    width:80%;
-    margin-bottom:3rem;
-    margin-top:2rem;
 }
 .atelierDetail{
     margin-bottom: 1rem;
