@@ -60,18 +60,21 @@ table{
 }
 
 /*Page velos */
-
 #carouselVelosMassi{
     max-width:70%;
     margin: auto;
 }
-
-.logoVeloSM {
-    width: 80%;
-}
-
 .vide{
-    border:none;
+    border:none; 
+}
+.marqueVelo{
+    width:70%;
+    margin:auto;
+    padding-top:1rem;
+}
+.btnVelo{
+    width:70%;
+    margin:auto;
 }
 /* Page Atelier */
 hr.securite {
