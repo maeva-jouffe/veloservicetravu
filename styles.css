@@ -39,6 +39,10 @@ a:hover {
 }
 
 /* Page Location */
+.imgpresentation{
+    width:50rem;
+    margin:auto;
+}
 .locationCard{
     margin-bottom:2rem;
 }
