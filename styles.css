@@ -1,139 +1,115 @@
 /* Page Index */
-#banniere{
-    width:100%;
-    margin-top:20px;
+#banniere {
+    width: 100%;
+    margin-top: 20px;
 }
-#banniere1{
-    width:100%;
-    position:absolute;
-    top:0;
+
+#banniere1 {
+    width: 100%;
+    position: absolute;
+    top: 0;
 }
-.banniereSM{
-position:relative;
-height:13rem;
+
+.banniereSM {
+    position: relative;
+    height: 13rem;
 }
-.indexh1{
-    z-index:1000;
-    position:absolute;
-    color:white;
-    top:2rem;
-    padding:0.5rem;
+
+.indexh1 {
+    z-index: 1000;
+    position: absolute;
+    color: white;
+    top: 2rem;
+    padding: 0.5rem;
 }
-.indexh1 em{
-    color:#FFC107;
-    font-weight:bold;
+
+.indexh1 em {
+    color: #FFC107;
+    font-weight: bold;
     font-style: normal;
 }
-#conseils{
-    margin-top:2rem;
-    margin-bottom:2rem;
+
+#conseils {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
-.card-deck{
+
+.card-deck {
     margin-top: 3.5em;
 }
+
 a:hover {
     text-decoration: none;
 }
+
 .presentation:hover {
     transform: scale(1.05);
 }
 
 /* Page Location */
-.imgpresentation{
-    width:50rem;
-    margin:auto;
-}
-.locationCard{
-    margin-bottom:2rem;
-}
-.card_location{
-    max-width:80%;
-    margin:auto;
-}
-table{
-    max-width:80%;
-    margin:auto;
-}
-.carousel-inner img{
-    border:6px double #F2F2F2;
-    margin-top: 3rem;
-}
-#carouselExampleFade{
-    max-width:70%;
-    margin:auto;
-}
-
-/*Page velos */
-#carouselVelosMassi{
-    max-width:70%;
+.imgpresentation {
+    width: 50rem;
     margin: auto;
 }
-.vide{
-    border:none; 
+
+.locationCard {
+    margin-bottom: 2rem;
 }
-.marqueVelo{
-    width:50%;
-    margin:auto;
-    padding-top:1rem;
+
+.card_location {
+    max-width: 80%;
+    margin: auto;
 }
-.btnVelo{
-    width:70%;
-    margin:auto;
+
+table {
+    max-width: 80%;
+    margin: auto;
 }
+
+.carousel-inner img {
+    border: 6px double #F2F2F2;
+    margin-top: 3rem;
+}
+
+#carouselExampleFade {
+    max-width: 70%;
+    margin: auto;
+}
+
 /* Page Atelier */
-hr.securite {
-    border-top: 1px solid #28A745;
-    width:30%;
-}
-hr.standard {
-    border-top: 1px solid #FFC107;
-    width:30%;
-}
-hr.approfondi {
-    border-top: 1px solid #007BFF;
-    width:30%;
-}
-.card-footer{
+.card-footer {
     font-size: x-large;
     width: 45%;
-    margin:auto;
+    margin: auto;
     margin-bottom: 1rem;
 }
-.atelierDetail{
-    margin-bottom: 1rem;
-}
-.titreAtelier{
+
+.titreAtelier {
     font-size: x-large;
 }
+
 .reparation {
     margin: auto;
 }
 
 /*Page Vente*/
-.marques{
-display:flex;
-flex-wrap: wrap;
-justify-content: center;
+.carte_seule {
+    width: 50%;
+    margin: auto;
 }
-.marques img{
-max-width:8rem;
-max-height: 3rem;
-margin:2rem 0.5rem 0rem 0.5rem;
-}
-.carte_seule{
-    width:50%;
-    margin:auto;
-}
+
 /* Page Contact */
 .map {
     margin: auto;
 }
+
 .map-container-5 {
     overflow: hidden;
     padding-bottom: 56.25%;
     position: relative;
     height: 0;
 }
+
 .map-container-5 iframe {
     left: 0;
     top: 0;
@@ -143,12 +119,149 @@ margin:2rem 0.5rem 0rem 0.5rem;
 }
 
 /* Footer */
-.iconeReseaux{
-    margin-left:4rem;
+.iconeReseaux {
+    margin-left: 4rem;
 }
-footer{
-    margin-top:3rem;
+
+footer {
+    margin-top: 3rem;
 }
+
 .logoFooter {
     width: 13rem;
 }
+
+
+#banniere {
+    width: 100%;
+    margin-top: 20px
+}
+
+#banniere1 {
+    width: 100%;
+    position: absolute;
+    top: 0
+}
+
+.banniereSM {
+    position: relative;
+    height: 13rem
+}
+
+.indexh1 {
+    z-index: 1000;
+    position: absolute;
+    color: #fff;
+    top: 2rem;
+    padding: .5rem
+}
+
+.indexh1 em {
+    color: #FFC107;
+    font-weight: 700;
+    font-style: normal
+}
+
+#conseils {
+    margin-top: 2rem;
+    margin-bottom: 2rem
+}
+
+.card-deck {
+    margin-top: 3.5em
+}
+
+a:hover {
+    text-decoration: none
+}
+
+.presentation:hover {
+    transform: scale(1.05)
+}
+
+.imgpresentation {
+    width: 50rem;
+    margin: auto
+}
+
+.locationCard {
+    margin-bottom: 2rem
+}
+
+.card_location {
+    max-width: 80%;
+    margin: auto
+}
+
+table {
+    max-width: 80%;
+    margin: auto
+}
+
+.carousel-inner img {
+    border: 6px double #F2F2F2;
+    margin-top: 3rem
+}
+
+#carouselExampleFade {
+    max-width: 70%;
+    margin: auto
+}
+
+.card-footer {
+    font-size: x-large;
+    width: 45%;
+    margin: auto;
+    margin-bottom: 1rem
+}
+
+.titreAtelier {
+    font-size: x-large
+}
+
+.reparation {
+    margin: auto
+}
+
+.carte_seule {
+    width: 50%;
+    margin: auto
+}
+
+.map {
+    margin: auto
+}
+
+.map-container-5 {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0
+}
+
+.map-container-5 iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute
+}
+
+.iconeReseaux {
+    margin-left: 4rem
+}
+
+footer {
+    margin-top: 3rem
+}
+
+.logoFooter {
+    width: 13rem
+}
+
+
+
+
+
+
+/* }#banniere{width:100%;margin-top:20px}#banniere1{width:100%;position:absolute;top:0}.banniereSM{position:relative;height:13rem}.indexh1{z-index:1000;position:absolute;color:#fff;top:2rem;padding:.5rem}.indexh1 em{color:#FFC107;font-weight:700;font-style:normal}#conseils{margin-top:2rem;margin-bottom:2rem}.card-deck{margin-top:3.5em}a:hover{text-decoration:none}.presentation:hover{transform:scale(1.05)}.imgpresentation{width:50rem;margin:auto}.locationCard{margin-bottom:2rem}.card_location{max-width:80%;margin:auto}table{max-width:80%;margin:auto}.carousel-inner img{border:6px double #F2F2F2;margin-top:3rem}#carouselExampleFade{max-width:70%;margin:auto}.card-footer{font-size:x-large;width:45%;margin:auto;margin-bottom:1rem}.titreAtelier{font-size:x-large}.reparation{margin:auto}.carte_seule{width:50%;margin:auto}.map{margin:auto}.map-container-5{overflow:hidden;padding-bottom:56.25%;position:relative;height:0}.map-container-5 iframe{left:0;top:0;height:100%;width:100%;position:absolute}.iconeReseaux{margin-left:4rem}footer{margin-top:3rem}.logoFooter{width:13rem} */

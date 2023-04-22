@@ -4,5 +4,3 @@ https://www.velo-service-travu.fr/vente.html
 https://www.velo-service-travu.fr/location.html
 https://www.velo-service-travu.fr/contact.html
 https://www.velo-service-travu.fr/cgu.html
-https://www.velo-service-travu.fr/velosMassi.html
-https://www.velo-service-travu.fr/velosPolygon.html
